@@ -10,9 +10,9 @@ ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,unichain-sepoli
 EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
 RPC_ENDPOINTS='{
-    "l2rn": ,
-    "arbt": ,
-    "bast": ,
-    "opst": ,
-    "unit": 
+    "l2rn": [l2rn-env],
+    "arbt": [arbt-env],
+    "bast": [bast-env],
+    "opst": [opst-env],
+    "unit": [unit-env]
 }'
