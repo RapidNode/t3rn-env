@@ -13,7 +13,6 @@ RPC_ENDPOINTS='{
     "l2rn": ,
     "arbt": ,
     "bast": ,
-    "blst": ,
     "opst": ,
     "unit": 
 }'
