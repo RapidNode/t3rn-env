@@ -7,11 +7,11 @@ EXECUTOR_PROCESS_ORDERS_ENABLED=true
 EXECUTOR_PROCESS_CLAIMS_ENABLED=true
 EXECUTOR_MAX_L3_GAS_PRICE=500
 PRIVATE_KEY_LOCAL=$(cat private_key.txt)
-ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,unichain-sepolia,l2rn'
+ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l2rn'
 EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
 EXECUTOR_ENABLE_BATCH_BIDDING=true
-NETWORKS_DISABLED='blast-sepolia'
+NETWORKS_DISABLED='blast-sepolia,unichain-sepolia'
 RPC_ENDPOINTS='{
     "l2rn": [$(cat l2rn.txt)],
     "arbt": [$(cat arbt.txt)],
