@@ -5,3 +5,5 @@ echo '"https://base-sepolia-rpc.publicnode.com","https://base-sepolia.drpc.org"'
 echo '"https://sepolia.optimism.io","https://optimism-sepolia.drpc.org"' > opst.txt
 echo '"https://unichain-sepolia.drpc.org","https://sepolia.unichain.org"' > unit.txt
 echo '"https://sepolia.blast.io","https://blast-sepolia.drpc.org"' > blst.txt
+echo '"https://testnet-rpc.monad.xyz/"' > mont.txt
+echo '"https://evm-rpc-testnet.sei-apis.com/"' > seit.txt
