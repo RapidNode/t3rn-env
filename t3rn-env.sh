@@ -11,7 +11,7 @@ ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,unichain-sepoli
 EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
 EXECUTOR_ENABLE_BATCH_BIDDING=true
-NETWORKS_DISABLED='blast-sepolia,monad-sepolia,sei-testnet'
+NETWORKS_DISABLED='blast,arbitrum,base,optimism,blast-sepolia,monad-testnet,sei-testnet'
 RPC_ENDPOINTS='{
     "l2rn": [$(cat l2rn.txt)],
     "arbt": [$(cat arbt.txt)],
